@@ -1,0 +1,36 @@
+.link1:link{
+    color: brown;
+    /* background-color: orange; */
+}
+
+.link1:visited{
+    color: chartreuse;
+}
+
+.google:hover{
+    color: cyan;
+}
+
+.google:active{
+    background-color: crimson;
+}
+
+.in1:focus{
+    background-color: blue;
+}
+
+.in1:disabled{
+    background-color: black;
+}
+
+.in3:checked{
+    margin: 50px;
+}
+
+/* div:first-child{
+    color: red;
+} */
+
+div:last-child{
+    color: red;
+}

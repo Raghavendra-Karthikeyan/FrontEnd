@@ -1,0 +1,38 @@
+.my-para{
+    color: red;
+}
+.login-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.top-heading{
+    text-align: center;
+    font-size: 60px;
+}
+
+@media(max-width:1000px){
+    .top-heading{
+        font-size: 55px;
+    }
+}
+@media(max-width:900px){
+    .my-para{
+        color: blue;
+        font-size: 40px;
+    }
+    .login-btn{
+        background-color: blueviolet;
+    }
+    .top-heading{
+        font-size: 50px;
+    }
+}
+@media(max-width:850px){
+    .top-heading{
+        font-size: 45px;
+        color: cadetblue;
+    }
+}

@@ -1,0 +1,43 @@
+.main-container{
+    height: 500px;
+    width: 600px;
+    border: 2px solid red;
+
+    /* TRLB,absolute */
+    /* position: relative;   */
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    background-color: blue;
+
+
+    /* TRLB */
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 10px;
+    bottom: 200px; */
+    /* position: relative; */
+
+
+    /* position: absolute;
+    right: 0;
+    bottom: 20px; */
+
+
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+
+   
+}
+.box2{
+    background-color: rgb(55, 235, 42);
+}
+.box3{
+    background-color: rgb(220, 28, 124);
+}

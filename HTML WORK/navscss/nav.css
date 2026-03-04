@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+nav {
+  height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: end;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}/*# sourceMappingURL=nav.css.map */

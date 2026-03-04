@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.para{
+    color: grey;
+    max-width: 48ch;   
+    line-height: 1.6;
+    font-style: oblique;
+}
+
+.p{
+    margin: 32px;
+}
+
+.w{
+    font-size: 40px;
+    margin: 0%; 
+    color: #ffb606;
+    font-style:italic;
+}
+
+.t{
+    margin: 0%;
+    font-size: 40px;
+}
+
+.bt{
+    color: #131230;
+    background: #ffb606;
+    /* font-family: "Roboto", sans-serif; */
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    padding: 12px;
+}

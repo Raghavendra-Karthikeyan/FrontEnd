@@ -1,0 +1,25 @@
+p {
+    font-size: x-large;
+    font-family: fantasy;
+    /* font-weight: 1000; */
+    white-space: calc();
+    font-style: oblique;
+    /* text-shadow: 10px; */
+    text-decoration: underline violet;
+    /* text-decoration: wavy; */
+    /* font-language-override: inherit; */
+    text-indent: 10cm;
+    word-spacing: 2px;
+
+}
+
+section {
+
+    font-size: xx-large;
+    color: aqua;
+    direction: rtl;
+    background-color: black;
+    font-family: "Teko", sans-serif;
+
+
+}

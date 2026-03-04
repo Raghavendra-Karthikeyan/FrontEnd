@@ -1,0 +1,51 @@
+/* class */
+.my-para-cls{
+    color: aquamarine;
+}
+
+
+/* id */
+#my-para-id{
+    color: red;
+}
+#btn{
+    background-color: green;
+    color: white;
+    border: none;
+    /* padding: 10px; */
+    border-radius: 12px;
+    /* margin-left: 10px; */
+
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
+
+    padding: 10px 20px;
+}
+
+
+/* element */
+h2{
+    color: blueviolet;
+}
+
+
+/* universal */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* group */
+.regiter-btn,#logout-btn{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+}
+.regiter-btn{
+    background-color: green;
+}
+#logout-btn{
+    background-color: red;
+}

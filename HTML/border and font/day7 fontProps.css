@@ -1,0 +1,12 @@
+p{
+    font-size: 22px;
+    /* font-style: normal; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+
+    font-weight: 600;
+
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+    font-family: "Poppins", sans-serif;
+}

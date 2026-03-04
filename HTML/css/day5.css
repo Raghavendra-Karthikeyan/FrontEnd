@@ -1,0 +1,12 @@
+h3{
+    color: brown;
+}
+
+section{
+    /* height: 500px; */
+    width: 60%;
+    border: 2px solid red;
+    margin: auto;
+    /* background-color: rgb(15, 41, 64); */
+    /* color: white; */
+}

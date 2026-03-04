@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+$primary: blue;
+nav{
+    height: 100px;
+    background-color: $primary;
+    ul{
+        list-style-type: none;
+        li{
+            //display: flex;
+            display: inline-block;
+            padding: 20px;
+        }
+    }
+}
+
+.btn{
+    padding: 10px;
+    color: red;
+}
+
+.log{
+    @extend .btn;
+}
+
+@mixin col {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+    @include col;
+}

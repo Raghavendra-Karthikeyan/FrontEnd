@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Table</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 30px auto;
+            width: 70%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-size: 22px;
+        }
+
+        .periods {
+            font-size: 26px;
+            font-weight: bold;
+             background-color: #a42626;
+        }
+
+        .days {
+            font-weight: bold;
+            color: #1add92;
+        }
+
+        .break {
+            font-weight: bold;
+            background-color: #ffe6e6;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="5">TIME TABLE</th>
+        </tr>
+        <tr>
+            <td class="days">Days</td>
+            <td colspan="4" class="periods">Periods</td>
+        </tr>
+        <tr>
+            <td class="days">Monday</td>
+            <td>Maths</td>
+            <td>Language</td>
+            <td>English</td>
+            <td class="break" rowspan="4">BREAK TIME</td>
+        </tr>
+        <tr>
+            <td class="days">Tuesday</td>
+            <td>Language</td>
+            <td>English</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td class="days">Wednesday</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Language</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- String -->
+
+   <script>
+    var msg = "Hello javascript"
+
+    console.log(msg.length);
+    console.log(msg.toUpperCase());
+    console.log(msg.toLowerCase());
+
+    let trimedValue = msg.trim()
+    console.log(trimedValue);
+
+    console.log(msg.trimLeft());
+    console.log(msg.trimRight());
+
+    console.log(msg.indexOf("a"));
+    console.log(msg.lastIndexOf("l"));
+    
+    console.log( msg.slice(0,4));   // with start and end
+    console.log(msg.slice(6));      // without end
+
+    var replacedString = msg.replace("Hello","welcome")
+    console.log(replacedString);
+
+   let concatedString = replacedString.concat(" string methods")
+   console.log(concatedString);
+   
+
+   let geeks = 'stands-for-GeeksforGeeks'
+   console.log(geeks.split("-"));
+
+   let courses = "Python and Java and nodejs and reactjs"
+   console.log(courses.split("and"));
+   
+   console.log(msg.startsWith("python"));
+    
+    
+   </script>
+    
+</body>
+</html>

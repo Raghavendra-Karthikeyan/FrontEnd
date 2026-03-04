@@ -1,0 +1,9 @@
+/* input[type]{
+    color: brown;
+} */
+input[type="text"]{
+    color: blue;
+}
+p[class~="note"]{
+color: chocolate;
+}

@@ -1,0 +1,12 @@
+/*  DESCENDANT COMBINATOR */
+
+
+/* div p{
+    background-color: blue;
+} */
+
+/* CHLD COMBI */
+
+div > p{
+    color: red;
+}

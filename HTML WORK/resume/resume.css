@@ -1,0 +1,11 @@
+section{
+    border: 1px solid rebeccapurple;
+    width: 1000px ;
+    height: 600px;
+    margin: auto;
+    h1{
+        text-align: center;
+        background-color: navy;
+        color: whitesmoke;
+    }
+}

@@ -1,0 +1,20 @@
+ p{
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    /* border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    border-radius: 20px 40px;
+    border-top-color: blueviolet;
+    border-left-style: dotted;
+    /* border-right-style: hidden; */
+    border-right-style: groove;
+
+
+      /* height: 300px;
+    width: 400px;
+    border-style: solid;
+     border-color: blue; */
+} 

@@ -1,0 +1,61 @@
+@import "./vari";
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 10px 10px 5px gray;
+}
+.box1 {
+    height: 450px;
+    width: 270px;
+    border: 2px solid black;
+    background-color: $clname;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 12px;
+}
+
+.box2 {
+    @extend .box1;
+}
+
+.box3 {
+    @extend .box1;
+}
+
+main {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+@mixin siz {
+    width: 230px;
+    height: 200px;
+}
+
+.im {
+    @include siz;
+    object-fit: cover; 
+    border-radius: 10px;
+    border: 2px solid white;
+    background: white;
+}
+
+h2 {
+    margin: 15px 0 10px;
+}
+
+p {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+button{
+    height: 35px;
+    background-color: darkblue;
+    color: white;
+    box-shadow: 5px 5px 8px blue;
+    border: none;
+}
