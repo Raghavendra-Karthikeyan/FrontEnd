@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <p id="my-para">Hi ...... hello</p>
+    <p id="my-para">Document Object Model</p>
+    <button type="button" onclick="changeContent()">Change Content</button>
+
+
+    <!-- getElementById, className, tagName, querySelector, querySelectorAll -->
+    
+
+    <img src="../images/user.jpg"  id="my-img" height="200px" width="200px">
+    <button  type="button" onclick="changeImage()">Change Image</button>
+    <script>
+        function changeContent(){
+            console.log("working");
+        //    document.getElementById("my-para").innerHTML = "Good Evening" 
+           
+        const myData = document.getElementById("my-para")
+        console.log(myData);
+        
+        document.getElementById("my-para").style.color = "red"
+        document.getElementById("my-para").style.fontSize = "30px"
+            
+        }
+
+        function changeImage(){
+            console.log("working");
+            
+            document.getElementById("my-img").setAttribute("src","../../images/5951752.png")
+        }
+    </script>
+</body>
+</html>

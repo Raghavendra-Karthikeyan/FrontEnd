@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+       const studentData = {
+            name:"aaa",
+            email:"aaa@gmail.com",
+            rank:10,
+            mobile: 9723437854,
+            isPass: true
+        }
+
+        // object accessing methods
+
+        // dot, square,destructuring
+
+        // dot accessing method
+        console.log(studentData.email,"student data email");
+        console.log(studentData.rank);
+
+
+        // square accessing method
+        console.log(studentData["mobile"]);
+        result = studentData["isPass"]
+        console.log(result,"res");
+
+
+        // destructuring
+
+        const { name,mobile} = studentData
+        console.log(name);
+       // console.log(isPass);
+        
+
+
+        // object iterating methods - keys(), values(), entries()
+
+        console.log(Object.keys(studentData));
+        console.log(Object.values(studentData));
+        console.log(Object.entries(studentData));
+
+
+
+        // spread operator ( ...)
+
+        const obj1 = {
+            name:"demo1",
+            email:"demo1@gmail.com",
+            total:300
+        }
+        const obj2 = {
+            mobile : 957348954,
+            total: 470
+        }
+
+        const data = { ...obj1,... obj2}
+        console.log(data);
+        
+        const departmentData = {
+            age : 20
+        }
+        departmentData["name"] = "cse"
+        departmentData["studentCount"] = 260
+        console.log(departmentData);
+
+        const productDetails = new Object()
+        productDetails["pName"]= "demo product"
+        productDetails["price"] = 200
+        console.log(productDetails);
+
+
+        
+        
+        
+        // console.log(typeof department);
+        
+    </script>
+    
+</body>
+</html>

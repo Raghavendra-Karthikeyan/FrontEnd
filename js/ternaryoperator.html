@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1 . Check even or odd
+        let ans = 10 % 2 == 0 ? "Even" : "Odd";
+        console.log(ans);
+        
+        //2 . Check divisible by 5
+        let ans2 = 10 % 5 == 0 ? "Divisible by 5" : "Not Divisible by 5";
+        console.log(ans2);
+
+        //3 . Check number is two-digit
+        let num = parseInt(prompt("Enter a number:"));
+        var ans3 = num > 9 && num < 100 ? "Two-digit number" : "Not a two-digit number";
+        console.log(ans3);
+
+        //4 . Check vowel or consonant
+        let char = prompt("Enter a character:").toLowerCase();
+        let ans4 = ['a', 'e', 'i', 'o', 'u'].includes(char) ? "Vowel" : "Consonant";
+        console.log(ans4);
+
+        //5 . Check number divisible by 2 and 3
+        let num2 = parseInt(prompt("Enter a number:"));
+        let ans5 = num2 % 2 == 0 && num2 % 3 == 0 ? "Divisible by 2 and 3" : "Not Divisible by 2 and 3";
+        console.log(ans5);
+    </script>
+</body>
+</html>

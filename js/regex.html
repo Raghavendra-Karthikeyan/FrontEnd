@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let text = "hello world";
+        let regex = /hello/;
+
+        console.log(regex.test(text));
+
+        let a = /cat/;
+        let a1 = "my cat is sleeping";
+        console.log(a.test(a1));
+
+        let b = /\d/;
+        let b1 = "hello123";
+        console.log(b.test(b1));
+
+        let c = /^[A-Za-z]+$/;
+        let c1 = "JavaScript";
+        console.log(c.test(c1));
+
+        let d = /^hello/;
+        let d1 = "hello everyone";
+        console.log(d.test(d1));
+        
+    </script>
+</body>
+
+</html>

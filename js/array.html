@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // array - used to store multiple elements in a single variable
+
+        //  array is special type of obejct
+
+       var myArray = ["aaa","aaa@gmail.com",8435738945,10,false]
+       console.log(typeof myArray);
+
+       console.log(myArray[2]);
+       console.log(myArray.length);
+       
+    //    console.log();
+    // push() - used to insert element in an array in the last index
+    myArray.push(370)
+    console.log(myArray,"push");
+    
+    // pop() - remove element from the last index
+
+    myArray.pop()
+    console.log(myArray,"pop");
+
+    // shift() - remove the first element from an array.
+    myArray.shift()
+    console.log(myArray,"shift");
+
+    // unshift() - add element in 1st index
+    myArray.unshift("Raghav")
+    console.log(myArray,"unshift");
+
+
+    var arr = [10,20,30,40,50,60]
+    newArray = arr.slice(2,5)
+    console.log(newArray,"slice");
+
+    newJoinArray = arr.join(" and ")
+    console.log(newJoinArray,"join");
+
+    var numbers = [[1,2],[3,4],[5,6]]
+    console.log(numbers.flat());
+
+    array1 = [1,2,3]
+    array2 = [4,5,6]
+    newArraySpread = [...array1,...array2]
+    console.log(newArraySpread);
+    
+    
+    for(let i = 0; i <= myArray.length;i++){
+        console.log(myArray[i]);
+    }
+    
+    </script>
+    
+</body>
+</html>

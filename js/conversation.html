@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // implicit
+        var n1 = 10, n2 = "20.3", n3;
+        n3 = n1 + n2
+        console.log(typeof n3);
+        
+        console.log(n3)
+
+        let isActive = true
+        let newValue = isActive + n1
+        console.log(typeof newValue, newValue ,"implicit type conversion");
+        
+
+        // explicit type conversion
+
+        var strToInt = parseInt(n2)
+        var strToFloat = parseFloat(n3)
+        console.log(typeof strToFloat,"strToFloat",strToFloat);
+        console.log(typeof strToInt);
+        var numToStr = n1.toString()
+        console.log(typeof numToStr);
+    </script>
+</body>
+</html>

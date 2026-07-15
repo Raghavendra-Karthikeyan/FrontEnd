@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //execption handling
+        //try catch throw finally
+        try {
+            let x = y + 10;
+        } catch (error) {
+            console.log(error);
+        } finally {
+            console.log("Always runs");
+        }
+
+        let age = 25;
+        try {
+            if (age > 18) {
+                console.log("You are an adult");
+            } else {
+                throw new Error("You are not an adult");
+            }
+        } catch (error) {
+            console.log(error.message);
+        }
+
+        try {
+            let num = -5;
+
+            if (num < 0) {
+                throw "Negative not allowed";
+            }
+
+            console.log(num);
+        } catch (e) {
+            console.log("Error:", e);
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //settimeout
+        console.log("SET TIMEOUT");
+        let timeoutid = setTimeout(() => {
+            console.log("the code run after 3 sec");
+        },3000);
+
+        //cleartimeout
+        console.log("CLEAR TIMEOUT");
+        clearTimeout(timeoutid);    
+
+        //setinterval
+        console.log("SET INTERVAL");
+        let intervalid = setInterval(() =>{
+            console.log("the code run after every 2 sec");
+        },2000);
+
+        //clearinterval
+        console.log("CLEAR INTERVAL");
+        clearInterval(intervalid);
+
+        //1 Print "Hello after 3 seconds" using setTimeout
+        setTimeout(() => {
+            console.log("Hello after 3 seconds");
+        }, 3000);
+
+        //2 Create a counter that prints numbers every 1 second using setInterval
+        var  count = 0;
+        let counter  = setInterval(() => {
+            count++;
+            console.log(count);
+        }, 1000);
+
+        //3 
+        let clearinter = setTimeout(() => {
+            clearInterval(counter);
+        }, 5000);
+
+        //4 Schedule a message but cancel it before it runs
+        const schedule = setTimeout(() =>{
+            console.log("message has been scheduled");
+        }, 4000);
+        clearTimeout(schedule);
+
+        //5 Make a timer that prints "Loading..." every second and stops after 4 times
+        let stop = setInterval(() => {
+            console.log("loading....");
+        },1000);
+
+        setTimeout(() => {
+            clearInterval(stop);
+            console.log("loading stopped");
+        }, 4000);
+    </script>
+</body>
+</html>
